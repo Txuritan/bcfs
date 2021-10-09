@@ -1,0 +1,7 @@
+(executable
+ (name bcfs)
+ (modules bcfs)
+ (libraries caqti-driver-postgresql dream tyxml)
+ (preprocess (pps lwt_ppx tyxml-jsx ppx_yojson_conv)))
+
+(data_only_dirs _esy esy.lock lib node_modules)

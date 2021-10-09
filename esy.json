@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@opam/caqti-driver-postgresql": "*",
+    "@opam/dream": "1.0.0~alpha2",
+    "@opam/dune": "^2.0",
+    "@opam/reason": "^3.7.0",
+    "@opam/tyxml": "*",
+    "@opam/tyxml-jsx": "*",
+    "ocaml": "4.12.x"
+  },
+  "scripts": {
+    "start": "dune exec --root . ./bcfs.exe"
+  }
+}
